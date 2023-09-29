@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+  font-weight: 700;
+}
+
+h2 {
+  color: cadetblue;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+.form-section {
+  background-color: cadetblue;
+  border-radius: 20px;
+  padding: 20px;
+  min-height: 1000px;
+}
+
+.-hidden {
+  display: none;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.padd {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
